@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: 'wpdemo.gatsbycentral.com',
+        baseUrl: 'live-gatsbyify.pantheonsite.io',
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
         // The protocol. This can be http or https.
@@ -56,7 +56,7 @@ module.exports = {
           {
             resolve: `gatsby-wordpress-inline-images`,
             options: {
-              baseUrl: `wpdemo.gatsbycentral.com`,
+              baseUrl: `live-gatsbyify.pantheonsite.io`,
               protocol: `https`,
               postTypes: ['post', 'page']
             }
